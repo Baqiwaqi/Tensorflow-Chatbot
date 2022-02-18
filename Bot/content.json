@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "1",
+         "patterns": ["Hi","Is anyone there?", "Hello"],
+         "responses": ["Hi", "Hello", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "2",
+         "patterns": ["Who are you","What is you name","Do you have a name"],
+         "responses": ["Hi, I'm the MCH Chatbot", "My name is CHatbot", "I'm chatbot"],
+         "context_set": ""
+        },
+        {"tag": "5",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"],
+         "context_set": ""
+        },
+        {"tag": "6",
+         "patterns": ["What events are available today"],
+         "responses": ["Live in concent will be at UOM JJ hall"],
+         "context_set": ""
+        },
+        {"tag": "7",
+         "patterns": ["How are you","What's up"],
+         "responses": ["I'm fine, Thanks for asking.","I'm doing well","I'm fine. And you ?"],
+         "context_set": ""
+        },
+        {"tag": "8",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+         "context_set": ""
+        },
+        {"tag": "9",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"],
+         "context_set": ""
+        },
+        {"tag": "10",
+         "patterns": ["How can i contact MCH?", "Can i send a email?", "What is the cellphone number?"],
+         "responses": ["Mail us at mch@info.nl", "For a quick reaction call us on 067627425652"],
+         "context_set": ""
+        },
+        {"tag": "11",
+         "patterns": ["What are the products you offer?", "What do you offer?", "what kind of products do you make?"],
+         "responses": ["The products we offer are: P2ALinker, GoEfficient and TeleScope", "Network Inventory for (CEN) and Access Networks", "Recource Management en Workflow applications."],
+         "context_set": ""
+        }
+   ]
+}
